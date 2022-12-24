@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #efefef;
+  color: #363434;
+}
+
+ul {
+  background-color: #c8d675;
+  color: black;
+}
+ul span {
+  color: #eb9f12;
+}
+ul li:hover {
+  background-color: whitesmoke;
+}
+
+div {
+  background: blanchedalmond;
+  font-family: "Times New Roman", Times, serif;
+}
+div li:hover {
+  background-color: #363434;
+}
+
+p:hover {
+  color: #eb9f12;
+}/*# sourceMappingURL=Style.css.map */

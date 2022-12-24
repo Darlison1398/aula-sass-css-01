@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+   background-color: #efefef;
+   color: #363434;
+}
+
+ul{
+    background-color: #c8d675;
+    color: black;
+
+    span{
+        color:#eb9f12;
+    }
+
+    li:hover{
+        background-color: whitesmoke;
+    }
+}
+
+div{
+    background: blanchedalmond;
+    font-family: 'Times New Roman', Times, serif;
+
+    li:hover{
+        background-color: #363434;
+    }
+}
+
+
+// colocando o hover na própria tag.
+p{
+    &:hover{
+        color: #eb9f12;
+    }
+}
+
+
+//  herança no sass.
+.btn{
+    width: 200px;
+    padding: 10px 0;
+
+    background: none;
+    border: 0;
+    border-radius: 10px;
+
+/*  essa é uma forma de ser usado. Basta adicionar o & comercial.
+
+    &.btn-laranja{
+        background-color: orange;
+    }*/
+
+
+}
+
+.btn-laranja{
+    @extend .btn;
+    background: orange;
+}
